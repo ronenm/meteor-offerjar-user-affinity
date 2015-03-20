@@ -4,7 +4,7 @@ Package.describe({
   // Brief, one-line summary of the package.
   summary: 'Support session token login and/or link of user account to offerjar account',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/ronenm/meteor-offerjar-user-affinity.git',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
