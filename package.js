@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ronenm:offerjar-user-affinity',
-  version: '0.1.0',
+  version: '0.1.1',
   // Brief, one-line summary of the package.
   summary: 'Support session token login and/or link of user account to offerjar account',
   // URL to the Git repository containing the source code for this package.
@@ -15,6 +15,8 @@ Package.onUse(function(api) {
   api.use('ronenm:offerjar-api@0.1.0','server');
   api.use("underscore");
   api.use("accounts-base");
+  api.use("mongo");
+  api.use("minimongo",'client');
   api.addFiles('lib/partner_proxy_ext.js','server');
   api.addFiles('lib/login_support.js','server');
   api.addFiles('lib/login_common.js');
