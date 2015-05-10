@@ -12,11 +12,11 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
-  api.use('ronenm:offerjar-api@0.1.0','server');
+  api.use('ronenm:offerjar-api@0.1.0');
   api.use("underscore");
   api.use("accounts-base");
   api.use("mongo");
-  api.use("minimongo",'client');
+  api.use("minimongo");
   api.addFiles('lib/partner_proxy_ext.js','server');
   api.addFiles('lib/login_support.js','server');
   api.addFiles('lib/login_common.js');
