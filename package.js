@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ronenm:offerjar-user-affinity',
-  version: '0.1.1',
+  version: '0.1.2',
   // Brief, one-line summary of the package.
   summary: 'Support session token login and/or link of user account to offerjar account',
   // URL to the Git repository containing the source code for this package.
