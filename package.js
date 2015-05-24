@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
-  api.use('ronenm:offerjar-api@0.1.0');
+  api.use('ronenm:offerjar-api@1.0.0');
   api.use("underscore");
   api.use("accounts-base");
   api.use("mongo");
